@@ -1,0 +1,14 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2019/01/02/02/37/background-3907905_960_720.jpg);
+}
+
+ul {
+    background: gray;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+ul li {
+    display: inline;
+    margin: 30px;
+}

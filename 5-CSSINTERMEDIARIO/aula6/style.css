@@ -1,0 +1,33 @@
+::selection {
+    color: pink;
+    background: black;
+}
+
+p::first-line {
+    color: orange;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(https://cdn1.vectorstock.com/i/1000x1000/26/00/rocket-icon-filled-flat-symbol-vector-21692600.jpg);
+    background-size: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+}
+
+h1::after {
+    background: url(https://cdn1.vectorstock.com/i/1000x1000/26/00/rocket-icon-filled-flat-symbol-vector-21692600.jpg);
+    background-size: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+}
